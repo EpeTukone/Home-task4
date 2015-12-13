@@ -67,7 +67,7 @@ def avg_fuel_for_100km(file):
 
 if __name__ == "__main__":
 #    file = (open(open_file, 'r')).readlines()
-    file = (open('car_stats.txt', 'r')).readlines()
+    file = (open('car_stats.csv', 'r')).readlines()
     temp_file = file_processing(file)
     print("All fuel cost = {}".format(all_fuel_cost(temp_file)))
     print("Money per month for a fuel = {}".format(avg_money_per_month(temp_file)))
