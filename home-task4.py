@@ -78,6 +78,7 @@ if __name__ == "__main__":
     print("All fuel cost = {}".format(all_fuel_cost(file)))
     print("Money per month for a fuel = {}".format(avg_money_per_month(file)))
     print("Avg liter's of fuel for 100 km = {}".format(avg_fuel_for_100km(file)))
+    print 'arar'
 
 
 
