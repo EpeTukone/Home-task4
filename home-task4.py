@@ -41,11 +41,11 @@ def avg_money_per_month(file):
         date_temp.append(int(string[0].split('/')[0]))
 
     if len(date_temp) != 0:
-        quantity_of_month = 1
+        number_of_month = 1
         for i in range(len(date_temp) - 1):
             if date_temp[i] != date_temp[i+1]:
-                quantity_of_month += 1
-        sum_per_month /= quantity_of_month
+                number_of_month += 1
+        sum_per_month /= number_of_month
     else:
         sum_per_month = "no or incorrect date's in the file"
     return sum_per_month
