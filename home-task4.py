@@ -9,7 +9,7 @@
 def file_processing(file):
     file =  file[1:]
     temp_file = []
-    for i in range(len(file)-1):
+    for i in range(len(file)):
         string = file[i].split(',')
         if string[0] == '' or string[0] == '' or string[1] == '' or string[2] == '' or string[3] == '':
             continue
